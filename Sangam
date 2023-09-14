@@ -1,0 +1,7 @@
+age=int(input("Please enter an age"))
+if age<=0 or age>=150:
+    print("Invalid age")
+elif age>=18:
+    print("You are Eligible for vote")
+else:
+    print("You are not Eligible for vote")
